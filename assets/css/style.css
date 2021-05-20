@@ -152,7 +152,6 @@ text-align: left;
     margin-left: 100px;
     margin-right: 100px;
 }
-
   .row{
     display: flex;
     flex-flow: row wrap;
@@ -161,7 +160,6 @@ text-align: left;
     flex: 25%;
     max-width: 23%;
     padding: 0 10px;
-
   }
   .column a{
     font-weight: bold;
