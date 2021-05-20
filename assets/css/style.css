@@ -7,12 +7,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
 /* ===========
     Section
 =============== */
 section{
-    padding-top: 70px;
+    margin-top: 0%;
+    padding-top: 50px;
     padding-bottom: 0px;
 }
 /* ==============
@@ -24,11 +24,10 @@ section{
     width: 140px;
     text-align: center;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 10px;
     font-weight: bold;
 }
-
 /* ====================
         Navbar
 ========================= */   
@@ -73,11 +72,12 @@ section{
 /*===========
      Slider
 ================ */
-.slider{
-      position: relative;
+.slider {
+    /* position: relative; */
     display: block;
-    top: 60px;
-      }
+    /* top: 60px; */
+    margin-top: 72px;
+}
 .slider img{
     margin: 0px;
 }
@@ -94,8 +94,8 @@ text-transform: uppercase;
 .same h2{
     font-size: 30px;
     text-align: center;
+    margin-top: 40px;
 }
-
 p {
     font-weight: bold;
     font-size: 14px;
@@ -113,7 +113,6 @@ hr{
     margin: 30px;
    background-color: #000000;
 }
-
 .about{
     display: flex;
     margin-left: 57px;
@@ -121,7 +120,7 @@ hr{
 }
 .side-pic img{
 display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
     margin: 0 auto;
 }
@@ -130,14 +129,15 @@ text-align: left;
     line-height: 15px;
     width: 700px;
     margin-left: 20px;
-
-
 }
 
 .side-text h3{
     margin-left: 20px;
     color: #000281;
     font-size: 20px;
+}
+.ceo-text h3 p{
+    margin-left: 0px;
 }
 .intro p{
     text-align: center;
@@ -148,29 +148,122 @@ text-align: left;
     text-align: center;
     margin-left: 0px;
 }
+.work{
+    padding: 30px 0;
+    text-align: center;
+    margin-left: 0px;
+}
 .margin{
     margin-left: 100px;
     margin-right: 100px;
 }
-  .row{
+.row{
     display: flex;
     flex-flow: row wrap;
   }
-  .column {
-    flex: 25%;
+.column {
+    flex: 20%;
     max-width: 23%;
     padding: 0 10px;
   }
-  .column a{
+.column a{
     font-weight: bold;
     color: #676767;
     text-decoration: none;
     cursor: pointer;
     text-transform: uppercase;
   }
-  .column img{
+.column img{
       width: 100%;
     }
+.column-five{
+    color: #676767;
+    flex: 15%;
+    max-width: 20%;
+    padding: 0 10px; 
+}
+.column-five img{
+    width: 90%;
+  }
+.client-row{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;   
+}
+.client-column{
+    flex: 15%;
+    max-width: 20%;
+    padding: 0 10px; 
+}
+.client-column img{
+    width: 90%;
+
+}
+.footer-container{
+    margin-top: 100px;
+    padding: 30px 0;
+    background: #333;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.footer-container > div {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 20px 0;
+    /* font-size: 30px; */
+    color: white;
+  }
+  .footer-container > div a{
+   text-decoration: none;
+  }
   
-  
-  
+.footer-img{
+    width: 200px;
+}
+.footer-links li{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.footer-links li a{
+    color: white;
+    margin: 60px;
+}
+address li{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: left;
+    margin: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+address li a{
+    text-decoration: none;
+    color: white;
+    
+}
+address{
+    font-style: normal;
+}
+address li p{
+    text-align: left;
+    color: white;
+}
+.copyrights{
+    background-color: rgb(27, 27, 27);
+}
+.copyrights p{
+    color: rgb(148, 144, 144);
+    text-align: justify;
+    margin: 1px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
